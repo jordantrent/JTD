@@ -156,17 +156,6 @@
     <Content Include="Scripts\popper.js.map" />
     <Content Include="Scripts\popper-utils.min.js.map" />
     <Content Include="Scripts\popper-utils.js.map" />
-    <Content Include="scss\stylish-portfolio.scss" />
-    <Content Include="scss\_bootstrap-overrides.scss" />
-    <Content Include="scss\_callout.scss" />
-    <Content Include="scss\_footer.scss" />
-    <Content Include="scss\_global.scss" />
-    <Content Include="scss\_masthead.scss" />
-    <Content Include="scss\_mixins.scss" />
-    <Content Include="scss\_portfolio.scss" />
-    <Content Include="scss\_services.scss" />
-    <Content Include="scss\_sidebar.scss" />
-    <Content Include="scss\_variables.scss" />
     <Content Include="vendor\bootstrap\css\bootstrap.css.map" />
     <Content Include="vendor\bootstrap\css\bootstrap.min.css.map" />
     <Content Include="vendor\bootstrap\js\bootstrap.bundle.js.map" />
