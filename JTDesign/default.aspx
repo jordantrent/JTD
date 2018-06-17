@@ -128,7 +128,7 @@
             
             <div class="row">
                 <div class="col-lg-6 p-4">
-                    <form id="contact-form" method="post" action="contact.php" role="form">
+                    <form runat="server" id="contact_form" method="post">
                         <div class="messages"></div>
                         <div class="controls">
                             <div class="row">
@@ -166,7 +166,7 @@
                                 </div>
                             </div>
                             <div class="col-md-12">
-                                <input id="btnSubmitLink" runat="server" onserverclick="btnSubmitLink_ServerClick" type="submit" class="btn btn-warning btn-send" value="Send message">
+                                <input type="submit" id="btnSubmitLink" runat="server" onserverclick="btnSubmitLink_ServerClick" class="btn btn-warning" value="Send message">
                             </div>
                         </div>
                         <div class="row">
