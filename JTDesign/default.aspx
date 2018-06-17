@@ -20,12 +20,14 @@
     </header>
 
     <!-- About -->
-    <section class="content-section bg-light" id="about">
+    <section class="content-section" id="about">
         <div class="container text-center">
             <div class="row">
                 <div class="col-lg-10 mx-auto">
-                    <h2 class="font-weight-custom">All aspects of Sewing and Upholstery</h2>
-                    <p class="lead mb-5">Domestic, Marine and Commercial. Whether it's seating, a cover, an awning or just a simple repair, there's no job too small. Design and production - start to finish.</p>
+                    <h2 class="font-weight-custom">All aspects of Sewing and Upholstery</h2><br /><br />
+                    <p class="lead">Domestic, Marine and Commercial. Whether it's seating, a cover, an awning or just a simple repair, there's no job too small. Design and production - start to finish.</p>
+                    <p class="lead">We tackle any kind of task involving a needle and thread - just ask. Our Workshop is ideally positioned on the South Coast in Poole. </p>
+                    <p class="lead mb-5"><a href="#contact">Contact us</a> today to see how we can help get your project moving.</p>
                 </div>
                 <div class="row">
                     <div class="col-lg-6">
@@ -42,10 +44,11 @@
 
     <!-- Portfolio -->
     <section class="content-section" id="work">
-        <div class="container-fluid">
-            <div class="content-section-heading text-center">
-                <h2 class="mb-5">Recent Projects</h2>
-            </div>
+   <div class="container- text-center">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <h2 class="font-weight-custom">Our Work</h2><br /><br />
+                    </div>
             <div class="row no-gutters">
                 <div class="col-lg-4">
                     <a class="portfolio-item" href="#">
@@ -119,29 +122,33 @@
     </section>
 
     <!-- Map -->
-    <section class="section">
-        <div class="container-fluid bg-light col-lg-12">
+    <section class="section" id="contact">
+        <div class="container">
+            <div class="content-section-heading text-center">
+                <h2 class="mb-5">Contact Us</h2>
+            </div>
             <div class="row">
                 <div class="col-lg-6 p-4">
                     <form id="contact-form" method="post" action="contact.php" role="form">
                         <div class="messages"></div>
                         <div class="controls">
                             <div class="row">
-                                <div class="col-sm-4">
+                                <div class="col-sm-12">
                                     <div class="form-group">
                                         <label for="form_name">Name *</label>
                                         <input id="form_name" type="text" name="surname" class="form-control" placeholder="Please enter your name *" required="required" data-error="name is required.">
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
-                                <div class="col-sm-4">
+
+                                <div class="col-sm-12">
                                     <div class="form-group">
                                         <label for="form_email">Email *</label>
                                         <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
-                                <div class="col-sm-4">
+                                <div class="col-sm-12">
                                     <div class="form-group">
                                         <label for="form_phone">Phone</label>
                                         <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone number">
@@ -173,7 +180,7 @@
                 <div class="col-lg-6 p-4">
                     <div class="mapouter">
                         <div class="gmap_canvas">
-                            <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=bournemouth%20university&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" style="width:100%; height:300px;"></iframe>
+                            <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=bournemouth%20university&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" style="width:100%; height:600px;"></iframe>
                             <a href="https://www.crocothemes.net"></a>
                         </div>
                     </div>
@@ -186,24 +193,8 @@
     <!-- Footer -->
     <footer class="footer text-center">
         <div class="container">
-            <ul class="list-inline mb-5">
-                <li class="list-inline-item">
-                    <a class="social-link rounded-circle text-white mr-3" href="#">
-                        <i class="icon-social-facebook"></i>
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a class="social-link rounded-circle text-white mr-3" href="#">
-                        <i class="icon-social-twitter"></i>
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a class="social-link rounded-circle text-white" href="#">
-                        <i class="icon-social-github"></i>
-                    </a>
-                </li>
-            </ul>
-            <p class="text-muted small mb-0">Copyright &copy; Your Website 2017</p>
+       
+            <p class="text-muted small mb-0">Copyright &copy; JTDesign</p>
         </div>
     </footer>
 </asp:Content>
