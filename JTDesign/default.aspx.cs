@@ -13,7 +13,6 @@ namespace JTDesign
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
         }
 
         protected void btnSubmitLink_ServerClick(object sender, EventArgs e)
