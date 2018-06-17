@@ -11,9 +11,9 @@
             <img src="img/JTD-Web.png" alt="" height="300">
             <br />
             <br />
-            <h1 class="mb-1 font-weight-custom">J.T DESIGN</h1>
+            <h1 id="main-title" class="mb-1 font-weight-custom">J.T DESIGN</h1>
             <h3 class="mb-5">Sewing and Upholstery
-        </h3>
+            </h3>
             <a class="btn btn-primary btn-small js-scroll-trigger" href="#about">Find Out More</a>
         </div>
         <div class="overlay"></div>
@@ -119,170 +119,69 @@
     </section>
 
     <!-- Map -->
-    <section id="contact" class="map">
-        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
-        <br />
-        <small>
-            <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
-        </small>
-    </section>
-
-
-
     <section class="section">
-
-    <!--Section heading-->
-    <h2 class="section-heading h1 pt-4">Contact us</h2>
-    <!--Section description-->
-    <p class="section-description">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
-        matter of hours to help you.</p>
-
-    <div class="row container align-content-center">
-
-        <!--Grid column-->
-        <div class="col-md-8 col-xl-9">
-            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-
-                <!--Grid row-->
-                <div class="row">
-
-                    <!--Grid column-->
-                    <div class="col-md-6">
-                        <div class="md-form">
-                            <input type="text" id="name" name="name" class="form-control">
-                            <label for="name" class="">Your name</label>
+        <div class="container-fluid bg-light col-lg-12">
+            <div class="row">
+                <div class="col-lg-6 p-4">
+                    <form id="contact-form" method="post" action="contact.php" role="form">
+                        <div class="messages"></div>
+                        <div class="controls">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <div class="form-group">
+                                        <label for="form_name">Name *</label>
+                                        <input id="form_name" type="text" name="surname" class="form-control" placeholder="Please enter your name *" required="required" data-error="name is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="form-group">
+                                        <label for="form_email">Email *</label>
+                                        <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="form-group">
+                                        <label for="form_phone">Phone</label>
+                                        <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone number">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <!--Grid column-->
-
-                    <!--Grid column-->
-                    <div class="col-md-6">
-                        <div class="md-form">
-                            <input type="text" id="email" name="email" class="form-control">
-                            <label for="email" class="">Your email</label>
+                        <div class="clearfix"></div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="form_message">Message *</label>
+                                    <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="send a message."></textarea>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <input type="submit" class="btn btn-warning btn-send" value="Send message">
+                            </div>
                         </div>
-                    </div>
-                    <!--Grid column-->
-
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p class="text-muted"><strong>*</strong> These fields are required.</p>
+                            </div>
+                        </div>
+                    </form>
                 </div>
-                <!--Grid row-->
-
-                <!--Grid row-->
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="md-form">
-                            <input type="text" id="subject" name="subject" class="form-control">
-                            <label for="subject" class="">Subject</label>
+                <div class="col-lg-6 p-4">
+                    <div class="mapouter">
+                        <div class="gmap_canvas">
+                            <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=bournemouth%20university&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" style="width:100%; height:300px;"></iframe>
+                            <a href="https://www.crocothemes.net"></a>
                         </div>
-                    </div>
-                </div>
-                <!--Grid row-->
-
-                <!--Grid row-->
-                <div class="row">
-
-                    <!--Grid column-->
-                    <div class="col-md-12">
-
-                        <div class="md-form">
-                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                            <label for="message">Your message</label>
-                        </div>
-
                     </div>
                 </div>
-                <!--Grid row-->
-
-            </form>
-
-            <div class="center-on-small-only">
-                <a class="btn btn-primary" onclick="validateForm()">Send</a>
             </div>
-            <div class="status"></div>
         </div>
-        <!--Grid column-->
 
-        <script>
-function validateForm() {
-    var name =  document.getElementById('name').value;
-    if (name == "") {
-        document.getElementById('status').innerHTML = "Name cannot be empty";
-        return false;
-    }
-    var email =  document.getElementById('email').value;
-    if (email == "") {
-        document.getElementById('status').innerHTML = "Email cannot be empty";
-        return false;
-    } else {
-        var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-        if(!re.test(email)){
-            document.getElementById('status').innerHTML = "Email format invalid";
-            return false;
-        }
-    }
-    var subject =  document.getElementById('subject').value;
-    if (subject == "") {
-        document.getElementById('status').innerHTML = "Subject cannot be empty";
-        return false;
-    }
-    var message =  document.getElementById('message').value;
-    if (message == "") {
-        document.getElementById('status').innerHTML = "Message cannot be empty";
-        return false;
-    }
-    document.getElementById('status').innerHTML = "Sending...";
-    formData = {
-    'name'     : $('input[name=name]').val(),
-    'email'    : $('input[name=email]').val(),
-    'subject'  : $('input[name=subject]').val(),
-    'message'  : $('textarea[name=message]').val()
-};
-
-
-$.ajax({
-url : "mail.php",
-type: "POST",
-data : formData,
-success: function(data, textStatus, jqXHR)
-{
-
-    $('#status').text(data.message);
-    if (data.code) //If mail was sent successfully, reset the form.
-    $('#contact-form').closest('form').find("input[type=text], textarea").val("");
-},
-error: function (jqXHR, textStatus, errorThrown)
-{
-    $('#status').text(jqXHR);
-}
-});
-</script>
-
-        <!--Grid column-->
-        <div class="col-md-4 col-xl-3">
-            <ul class="contact-icons">
-                <li><i class="fa fa-map-marker fa-2x"></i>
-                    <p>San Francisco, CA 94126, USA</p>
-                </li>
-
-                <li><i class="fa fa-phone fa-2x"></i>
-                    <p>+ 01 234 567 89</p>
-                </li>
-
-                <li><i class="fa fa-envelope fa-2x"></i>
-                    <p>contact@mdbootstrap.com</p>
-                </li>
-            </ul>
-        </div>
-        <!--Grid column-->
-
-    </div>
-
-</section>
-<!--Section: Contact v.2-->
-
-
-
-
+    </section>
 
     <!-- Footer -->
     <footer class="footer text-center">
