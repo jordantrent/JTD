@@ -166,7 +166,7 @@
                                 </div>
                             </div>
                             <div class="col-md-12">
-                                <input type="submit" class="btn btn-warning btn-send" value="Send message">
+                                <input type="submit" class="btn btn-send" value="Send message">
                             </div>
                         </div>
                         <div class="row">
