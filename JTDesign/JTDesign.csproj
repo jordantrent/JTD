@@ -87,7 +87,6 @@
     <Content Include="img\portfolio-4.jpg" />
     <Content Include="js\stylish-portfolio.js" />
     <Content Include="js\stylish-portfolio.min.js" />
-    <Content Include="mail.php" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.js" />
