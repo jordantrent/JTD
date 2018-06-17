@@ -49,6 +49,7 @@
                 <div class="col-lg-10 mx-auto">
                     <h2 class="font-weight-custom">Our Work</h2><br /><br />
                     </div>
+                </div>
             <div class="row no-gutters">
                 <div class="col-lg-4">
                     <a class="portfolio-item" href="#">
@@ -122,11 +123,9 @@
     </section>
 
     <!-- Map -->
-    <section class="section" id="contact">
+     <section class="section" id="contact">
         <div class="container">
-            <div class="content-section-heading text-center">
-                <h2 class="mb-5">Contact Us</h2>
-            </div>
+            
             <div class="row">
                 <div class="col-lg-6 p-4">
                     <form id="contact-form" method="post" action="contact.php" role="form">
