@@ -24,18 +24,14 @@
         <div class="container text-center">
             <div class="row">
                 <div class="col-lg-10 mx-auto">
-                    <h2 class="font-weight-custom">All aspects of Sewing and Upholstery</h2><br /><br />
+                    <h2 class="font-weight-custom">All aspects of Sewing and Upholstery</h2>
+                    <br />
+                    <br />
                     <p class="lead">Domestic, Marine and Commercial. Whether it's seating, a cover, an awning or just a simple repair, there's no job too small. Design and production - start to finish.</p>
                     <p class="lead">We tackle any kind of task involving a needle and thread - just ask. Our Workshop is ideally positioned on the South Coast in Poole. </p>
                     <p class="lead mb-5"><a href="#contact">Contact us</a> today to see how we can help get your project moving.</p>
-                </div>
-                <div class="row">
-                    <div class="col-lg-6">
-                        <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="col-lg-6">
-                        <img class="img-fluid" src="img/portfolio-2.jpg" alt="">
+                    <div class="col-lg-12">
+                        <img class="img" src="img/portfolio-1.jpg" alt="">
                         </a>
                     </div>
                 </div>
@@ -44,14 +40,16 @@
 
     <!-- Portfolio -->
     <section class="content-section" id="work">
-   <div class="container- text-center">
+        <div class="container text-center">
             <div class="row">
                 <div class="col-lg-10 mx-auto">
-                    <h2 class="font-weight-custom">Our Work</h2><br /><br />
-                    </div>
+                    <h2 class="font-weight-custom">Our Work</h2>
+                    <br />
+                    <br />
                 </div>
+            </div>
             <div class="row no-gutters">
-                <div class="col-lg-4">
+                <div class="col-lg-6">
                     <a class="portfolio-item" href="#">
                         <span class="caption">
                             <span class="caption-content">
@@ -59,10 +57,10 @@
                                 <p class="mb-0">A yellow pencil with envelopes on a clean, blue backdrop!</p>
                             </span>
                         </span>
-                        <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
+                        <img class="img-fluid" src="img/portfolio1.jpg" alt="">
                     </a>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-6">
                     <a class="portfolio-item" href="#">
                         <span class="caption">
                             <span class="caption-content">
@@ -70,10 +68,10 @@
                                 <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
                             </span>
                         </span>
-                        <img class="img-fluid" src="img/portfolio-2.jpg" alt="">
+                        <img class="img-fluid" src="img/portfolio2.jpg" alt="">
                     </a>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-6">
                     <a class="portfolio-item" href="#">
                         <span class="caption">
                             <span class="caption-content">
@@ -84,7 +82,7 @@
                         <img class="img-fluid" src="img/portfolio-3.jpg" alt="">
                     </a>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-6">
                     <a class="portfolio-item" href="#">
                         <span class="caption">
                             <span class="caption-content">
@@ -96,36 +94,66 @@
                     </a>
                 </div>
 
-                <div class="col-lg-4">
-                    <a class="portfolio-item" href="#">
-                        <span class="caption">
-                            <span class="caption-content">
-                                <h2>Stationary</h2>
-                                <p class="mb-0">A yellow pencil with envelopes on a clean, blue backdrop!</p>
-                            </span>
-                        </span>
-                        <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
-                    </a>
-                </div>
-                <div class="col-lg-4">
-                    <a class="portfolio-item" href="#">
-                        <span class="caption">
-                            <span class="caption-content">
-                                <h2>Ice Cream</h2>
-                                <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
-                            </span>
-                        </span>
-                        <img class="img-fluid" src="img/portfolio-2.jpg" alt="">
-                    </a>
-                </div>
+
             </div>
         </div>
     </section>
 
+    <!--Testimonals -->
+
+    <section class="content-section" id="testimonial">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <h2 class="font-weight-custom">What our Clients Say</h2>
+                    <br />
+                    <br />
+                </div>
+                <div class="col-sm-6">
+                    <div class="ourclients">
+                        <img class="img-fluid" src="img/msc-logo.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="ourclients">
+                        <p class="boldtext">M&C SAATCHI</p>
+                        <p>We have had the pleasure of working with the renowned PR wing of M&C Saatchi a number of times in the last few years.</p>
+                        <p>Our first job for them was a completely bespoke U-shaped sofa that could fit through the narrow aperture of a caravan door. This is not something you can buy at your local furniture store, so it came to us to solve this problem. The job was completed on time and the Curry's PC world caravan was able to hit the road and host Euro 2016 in comfort and style.</p>
+                        <p class="quotetext">"Elliott and Jordan turned this job around in a short space of time when every other supplier declined the challenge. Despite the fast approaching deadline, They were professional and skillful craftsmen, willing to find a solutions to our problem. Thanks for the love and time you put into this piece of handmade furniture- I highly recommend the boys for any job" - Lizzie Hawes, Account Executive</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="ourclients">
+                        <p class="boldtext">JIMMY'S ICED COFFEE</p>
+                        <p>Jimmy's was the brainchild of Brother and Sister duo Jim and Suzie Creagan. Their success is due in part to their absolute dedication in growing their brand through attending events both in industry and within communities all over the country. We've been involved here and there on some great Upholstery projects in their now infamous promotional vehicles and event stands.</p>
+                        <p class="quotetext">"We've collaborated with Jordan on a number of Upholstery projects in the last couple of years for our Event stands. He's been flexible and prompt with any deadline we've given him and the end product has always been something we've been chuffed with" - Nick Waring, Head of Creative.</p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="ourclients">
+                        <img class="img-fluid" src="img/jimmys-logo.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="col-sm-6">
+                    <img class="img-fluid" src="img/project-logo.png" alt="">
+                </div>
+                <div class="col-sm-6">
+                    <p class="boldtext">THE PROJECT CLIMBING CENTRE</p>
+                    <p>The Project Climbing Centre is a community driven indoor bouldering facility run by climbers, for climbers. Their aim is to provide the best facilities and the best support for climbers of all ages and abilities.</p>
+                    <p>Climbing centres require all sorts of funny structures, we get involved assisting the uniquely skilled in house build team. Our expertise is especially useful as a provider of the bespoke and fully fitted crash matting needed in such a facility.</p>
+                    <p class="quotetext">"Having had Elliott and Jordan based here in one of our workshop spaces for over a year and a half, we’ve had the pleasure of following them through their varied and awe-inspiring projects, as well as being lucky enough to have had them bring their skill and expertise to our own construction and upholstery exploits. No matter what we’ve thrown at them, nothing’s ever been too much or too little of a challenge. We’ve missed them since they’ve moved into their own purpose-built workshop, but they’re still our go-to guys whenever we need some specialist help or advice." - Kirsten Bergant, Assistant Manager</p>
+
+                </div>
+
+            </div>
+    </section>
+
     <!-- Map -->
-     <section class="section" id="contact">
+    <section class="section" id="contact">
         <div class="container">
-            
+
             <div class="row">
                 <div class="col-lg-6 p-4">
                     <form runat="server" id="contact_form" method="post">
@@ -179,7 +207,7 @@
                 <div class="col-lg-6 p-4">
                     <div class="mapouter">
                         <div class="gmap_canvas">
-                            <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=bournemouth%20university&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" style="width:100%; height:600px;"></iframe>
+                            <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=bournemouth%20university&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" style="width: 100%; height: 600px;"></iframe>
                             <a href="https://www.crocothemes.net"></a>
                         </div>
                     </div>
@@ -189,10 +217,13 @@
 
     </section>
 
+
+
+
     <!-- Footer -->
     <footer class="footer text-center">
         <div class="container">
-       
+
             <p class="text-muted small mb-0">Copyright &copy; JTDesign</p>
         </div>
     </footer>
