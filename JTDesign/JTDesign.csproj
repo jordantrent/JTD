@@ -80,11 +80,17 @@
     <Content Include="default.aspx" />
     <Content Include="img\bg-callout.jpg" />
     <Content Include="img\bg-masthead.jpg" />
+    <Content Include="img\bg-masthead2.jpg" />
+    <Content Include="img\jimmys-logo.jpg" />
+    <Content Include="img\msc-logo.jpg" />
     <Content Include="img\JTD-Web.png" />
     <Content Include="img\portfolio-1.jpg" />
     <Content Include="img\portfolio-2.jpg" />
     <Content Include="img\portfolio-3.jpg" />
     <Content Include="img\portfolio-4.jpg" />
+    <Content Include="img\portfolio1.jpg" />
+    <Content Include="img\portfolio2.jpg" />
+    <Content Include="img\project-logo.png" />
     <Content Include="js\stylish-portfolio.js" />
     <Content Include="js\stylish-portfolio.min.js" />
     <Content Include="Scripts\bootstrap.bundle.js" />
