@@ -31,7 +31,7 @@
                     <p class="lead">We tackle any kind of task involving a needle and thread - just ask. Our Workshop is ideally positioned on the South Coast in Poole. </p>
                     <p class="lead mb-5"><a href="#contact">Contact us</a> today to see how we can help get your project moving.</p>
                     <div class="col-lg-12">
-                        <img class="img" src="img/portfolio-1.jpg" alt="">
+                        <img class="img-fluid" src="img/jordan_sewing_cropped.png" alt="">
                         </a>
                     </div>
                 </div>
@@ -53,8 +53,8 @@
                     <a class="portfolio-item" href="#">
                         <span class="caption">
                             <span class="caption-content">
-                                <h2>Stationary</h2>
-                                <p class="mb-0">A yellow pencil with envelopes on a clean, blue backdrop!</p>
+                                <h2>Bespoke Crash Mats</h2>
+                                <p class="mb-0">Sourced, sewn and fitted. Purpose built to the client's needs. Three layers of interlocked foam topped with a hard wearing carpet.</p>
                             </span>
                         </span>
                         <img class="img-fluid" src="img/portfolio1.jpg" alt="">
@@ -64,8 +64,8 @@
                     <a class="portfolio-item" href="#">
                         <span class="caption">
                             <span class="caption-content">
-                                <h2>Ice Cream</h2>
-                                <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
+                                <h2>Custom Safety Edging</h2>
+                                <p class="mb-0">This piece was designed to protect the edge of a foam pit, but the same concept can be applied to any edge that users need protection from.</p>
                             </span>
                         </span>
                         <img class="img-fluid" src="img/portfolio2.jpg" alt="">
