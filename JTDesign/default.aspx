@@ -50,7 +50,30 @@
                 </div>
             </div>
             <div class="row no-gutters">
+              
                 <div class="col-lg-6">
+                    <a class="portfolio-item" href="#">
+                        <span class="caption">
+                            <span class="caption-content">
+                                <h2 class="textbg">Bournemouth Beach Lodges Upholstery</h2>
+                                <p class="mb-0 textbg">Bespoke matresses and seating, designed to be be hard wearing and easy to clean whilst maintaining a stylish and comfortable finish. Made to the exact specifications of master beach hut builders Ecologic Developments.</p>
+                            </span>
+                        </span>
+                        <img class="img-fluid" src="img/portfolio3.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-6">
+                    <a class="portfolio-item" href="#">
+                        <span class="caption">
+                            <span class="caption-content">
+                                <h2 class="textbg">Jimmy's Custom Coolbags</h2>
+                                <p class="mb-0 textbg">Tasked with making eyecatching coolbag replicas of their iconic new cartons, we took the concept and ran. Each bag is fully insulated and the 'lid' even unzips as a pocket!</p>
+                            </span>
+                        </span>
+                        <img class="img-fluid" src="img/portfolio4.jpg" alt="">
+                    </a>
+                </div>
+                  <div class="col-lg-6">
                     <a class="portfolio-item" href="#">
                         <span class="caption">
                             <span class="caption-content">
@@ -72,29 +95,6 @@
                         <img class="img-fluid" src="img/portfolio2.jpg" alt="">
                     </a>
                 </div>
-                <div class="col-lg-6">
-                    <a class="portfolio-item" href="#">
-                        <span class="caption">
-                            <span class="caption-content">
-                                <h2>Strawberries</h2>
-                                <p class="mb-0">Strawberries are such a tasty snack, especially with a little sugar on top!</p>
-                            </span>
-                        </span>
-                        <img class="img-fluid" src="img/portfolio-3.jpg" alt="">
-                    </a>
-                </div>
-                <div class="col-lg-6">
-                    <a class="portfolio-item" href="#">
-                        <span class="caption">
-                            <span class="caption-content">
-                                <h2>Workspace</h2>
-                                <p class="mb-0">A yellow workspace with some scissors, pencils, and other objects.</p>
-                            </span>
-                        </span>
-                        <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
-                    </a>
-                </div>
-
 
             </div>
         </div>
