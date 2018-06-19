@@ -92,7 +92,7 @@ h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead2.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -258,13 +258,13 @@ h6 {
 }
 
 .portfolio-item .caption .caption-content h2 {
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   text-transform: uppercase;
 }
 
 .portfolio-item .caption .caption-content p {
   font-weight: 300;
-  font-size: 1.2rem;
+  font-size: 0.8em;
 }
 
 @media (min-width: 992px) {
@@ -281,7 +281,7 @@ h6 {
     transition: opacity 0.25s;
     margin-left: 5rem;
     margin-right: 5rem;
-    margin-bottom: 5rem;
+    margin-top: 1rem;
   }
   .portfolio-item img {
     -webkit-transition: -webkit-clip-path 0.25s ease-out;
@@ -329,8 +329,8 @@ a:hover, a:focus, a:active {
 }
 
 .btn-primary {
-    background-color: #000000 !important;
-    border-color: #000000 !important;
+    background-color: #606060 !important;
+    border-color: #606060 !important;
     color: #fff !important;
 }
 

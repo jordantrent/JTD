@@ -1,3 +1,49 @@
-﻿.font-weight-custom {
-    font-weight:800;
+﻿html {
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+}
+body {
+    padding: 0px;
+    margin: 0px;
+}
+.font-weight-custom {
+    font-weight: 800;
+}
+
+h1 {
+    color: #000000;
+}
+
+h3 {
+    color: #000000;
+}
+
+.content-section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.ourclients {
+    padding-bottom: 3rem;
+}
+
+.quotetext {
+    font-style: italic;
+}
+
+.boldtext {
+    font-weight: bold;
+}
+
+.textbg {
+    background-color: rgb(0, 0, 0, 0.6);
+}
+
+.masthead {
+
+    background-attachment: fixed;
+}
+.headtext {
+    color: #ffffff;
 }
