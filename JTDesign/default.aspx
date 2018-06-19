@@ -8,11 +8,11 @@
     <!-- Header -->
     <header class="masthead d-flex">
         <div class="container text-center my-auto">
-            <img src="img/JTD-Web.png" alt="" height="300">
+            <img src="img/JTD-logowhite.png" alt="" height="300">
             <br />
             <br />
-            <h1 id="main-title" class="mb-1 font-weight-custom">J.T DESIGN</h1>
-            <h3 class="mb-5">Sewing and Upholstery
+            <h1 id="main-title" class="mb-1 font-weight-custom headtext">J.T DESIGN</h1>
+            <h3 class="mb-5 headtext">Sewing and Upholstery
             </h3>
             <a class="btn btn-primary btn-small js-scroll-trigger" href="#about">Find Out More</a>
         </div>
@@ -216,7 +216,7 @@
                     <div class="mapouter">
                         <div class="gmap_canvas">
                             <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=bournemouth%20university&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" style="width: 100%; height: 600px;"></iframe>
-                            <a href="https://www.crocothemes.net"></a>
+                          
                         </div>
                     </div>
                 </div>
