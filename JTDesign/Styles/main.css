@@ -39,3 +39,11 @@ h3 {
 .textbg {
     background-color: rgb(0, 0, 0, 0.6);
 }
+
+.masthead {
+
+    background-attachment: fixed;
+}
+.headtext {
+    color: #ffffff;
+}
