@@ -92,6 +92,8 @@
     <Content Include="img\portfolio-4.jpg" />
     <Content Include="img\portfolio1.jpg" />
     <Content Include="img\portfolio2.jpg" />
+    <Content Include="img\portfolio3.jpg" />
+    <Content Include="img\portfolio4.jpg" />
     <Content Include="img\project-logo.png" />
     <Content Include="js\stylish-portfolio.js" />
     <Content Include="js\stylish-portfolio.min.js" />
