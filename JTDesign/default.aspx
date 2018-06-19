@@ -50,7 +50,7 @@
                 </div>
             </div>
             <div class="row no-gutters">
-
+              
                 <div class="col-lg-6">
                     <a class="portfolio-item" href="#">
                         <span class="caption">
@@ -73,7 +73,7 @@
                         <img class="img-fluid" src="img/portfolio4.jpg" alt="">
                     </a>
                 </div>
-                <div class="col-lg-6">
+                  <div class="col-lg-6">
                     <a class="portfolio-item" href="#">
                         <span class="caption">
                             <span class="caption-content">
@@ -215,8 +215,8 @@
                 <div class="col-lg-6 p-4">
                     <div class="mapouter">
                         <div class="gmap_canvas">
-                            <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=bournemouth%20university&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" style="width: 100%; height: 600px;"></iframe>
-
+                            <iframe id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2524.744740362334!2d-1.9515543838825107!3d50.743223079516895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4873a1f33eb3e32b%3A0x1e5778c4eef546e8!2sJ.T+Design!5e0!3m2!1sen!2suk!4v1529441689175" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" style="width: 100%; height: 500px;"></iframe>
+                          
                         </div>
                     </div>
                 </div>
