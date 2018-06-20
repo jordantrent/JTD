@@ -50,50 +50,72 @@
                 </div>
             </div>
             <div class="row no-gutters">
-              
+
                 <div class="col-lg-6">
-                    <a class="portfolio-item" href="#">
+                    <span class="portfolio-item2">
                         <span class="caption">
                             <span class="caption-content">
                                 <h2 class="textbg">Bournemouth Beach Lodges Upholstery</h2>
                                 <p class="mb-0 textbg">Bespoke matresses and seating, designed to be be hard wearing and easy to clean whilst maintaining a stylish and comfortable finish. Made to the exact specifications of master beach hut builders Ecologic Developments.</p>
                             </span>
                         </span>
-                        <img class="img-fluid" src="img/portfolio3.jpg" alt="">
-                    </a>
+                        <img id="myImg" class="img-fluid" src="img/portfolio3.jpg" alt="">
+                        <div id="myModal" class="modal">
+                            <span class="close">&times;</span>
+                            <img class="modal-content" id="img01">
+                            <div id="caption"></div>
+                        </div>
+                    </span>
                 </div>
                 <div class="col-lg-6">
-                    <a class="portfolio-item" href="#">
+                    <span class="portfolio-item2">
                         <span class="caption">
                             <span class="caption-content">
                                 <h2 class="textbg">Jimmy's Custom Coolbags</h2>
                                 <p class="mb-0 textbg">Tasked with making eyecatching coolbag replicas of their iconic new cartons, we took the concept and ran. Each bag is fully insulated and the 'lid' even unzips as a pocket!</p>
                             </span>
                         </span>
-                        <img class="img-fluid" src="img/portfolio4.jpg" alt="">
-                    </a>
+                        <img id="myImg2" class="img-fluid" src="img/portfolio4.jpg" alt="">
+                        <div id="myModal2" class="modal">
+                            <span class="close">&times;</span>
+                            <img class="modal-content" id="img02">
+                            <div id="caption2"></div>
+                        </div>
+                    </span>
                 </div>
-                  <div class="col-lg-6">
-                    <a class="portfolio-item" href="#">
+                <div class="col-lg-6">
+                    <span class="portfolio-item2">
                         <span class="caption">
                             <span class="caption-content">
                                 <h2 class="textbg">Bespoke Crash Mats</h2>
                                 <p class="mb-0 textbg">Sourced, sewn and fitted. Purpose built to the client's needs. Three layers of interlocked foam topped with a hard wearing carpet.</p>
                             </span>
                         </span>
-                        <img class="img-fluid" src="img/portfolio1.jpg" alt="">
-                    </a>
+                        <img id="myImg3" class="img-fluid" src="img/portfolio1.jpg" alt="">
+                        <div id="myModal3" class="modal">
+                            <span class="close">&times;</span>
+                            <img class="modal-content" id="img03">
+                            <div id="caption3"></div>
+                        </div>
+
+                    </span>
                 </div>
                 <div class="col-lg-6">
-                    <a class="portfolio-item" href="#">
+                    <span class="portfolio-item2">
                         <span class="caption">
                             <span class="caption-content">
                                 <h2 class="textbg">Custom Safety Edging</h2>
                                 <p class="mb-0 textbg">This piece was designed to protect the edge of a foam pit, but the same concept can be applied to any edge that users need protection from.</p>
                             </span>
                         </span>
-                        <img class="img-fluid" src="img/portfolio2.jpg" alt="">
-                    </a>
+                        <img id="myImg4" class="img-fluid" src="img/portfolio2.jpg" alt="">
+                        <div id="myModal4" class="modal">
+                            <span class="close">&times;</span>
+                            <img class="modal-content" id="img04">
+                            <div id="caption4"></div>
+                        </div>
+
+                    </span>
                 </div>
 
             </div>
@@ -216,7 +238,7 @@
                     <div class="mapouter">
                         <div class="gmap_canvas">
                             <iframe id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2524.744740362334!2d-1.9515543838825107!3d50.743223079516895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4873a1f33eb3e32b%3A0x1e5778c4eef546e8!2sJ.T+Design!5e0!3m2!1sen!2suk!4v1529441689175" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" style="width: 100%; height: 500px;"></iframe>
-                          
+
                         </div>
                     </div>
                 </div>
@@ -235,4 +257,113 @@
             <p class="text-muted small mb-0">Copyright &copy; JTDesign</p>
         </div>
     </footer>
+
+    <script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+// Get the modal
+var modal = document.getElementById('myModal2');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg2');
+var modalImg = document.getElementById("img02");
+var captionText = document.getElementById("caption2");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+// Get the modal
+var modal = document.getElementById('myModal3');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg3');
+var modalImg = document.getElementById("img03");
+var captionText = document.getElementById("caption3");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+// Get the modal
+var modal = document.getElementById('myModal4');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg4');
+var modalImg = document.getElementById("img04");
+var captionText = document.getElementById("caption4");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+    </script>
+
 </asp:Content>
