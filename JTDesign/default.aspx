@@ -233,11 +233,19 @@
                             </div>
                         </div>
                     </form>
+                    <div class="row">
+                    <div class="col-sm-6">
+                    <p class="smalltext">JT Design<br />Unit 5 Brixey Business Park<br />18 Fancy Road<br />Poole<br />BH12 4PZ</p>
+                    </div>
+                    <div class="col-sm-6">
+                    <p class="smalltext">T: +44(0)7833678239<br />E: jordan.trent@gmail.com</p>
+                    </div>
+                        </div>
                 </div>
                 <div class="col-lg-6 p-4">
                     <div class="mapouter">
                         <div class="gmap_canvas">
-                            <iframe id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2524.744740362334!2d-1.9515543838825107!3d50.743223079516895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4873a1f33eb3e32b%3A0x1e5778c4eef546e8!2sJ.T+Design!5e0!3m2!1sen!2suk!4v1529441689175" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" style="width: 100%; height: 500px;"></iframe>
+                            <iframe id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2524.744740362334!2d-1.9515543838825107!3d50.743223079516895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4873a1f33eb3e32b%3A0x1e5778c4eef546e8!2sJ.T+Design!5e0!3m2!1sen!2suk!4v1529441689175" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" style="width: 100%; height: 600px;"></iframe>
 
                         </div>
                     </div>

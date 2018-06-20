@@ -3,12 +3,10 @@
     margin: 0px;
     overflow-x: hidden;
 }
-
 body {
     padding: 0px;
     margin: 0px;
 }
-
 .font-weight-custom {
     font-weight: 800;
 }
@@ -43,9 +41,9 @@ h3 {
 }
 
 .masthead {
+
     background-attachment: fixed;
 }
-
 .headtext {
     color: #ffffff;
 }
@@ -65,38 +63,36 @@ h3 {
         bottom: auto;
         z-index: 1;
     }
+.portfolio-item2 .caption .caption-content {
+    color: #fff;
+    margin: auto 2rem 2rem;
+}
 
-        .portfolio-item2 .caption .caption-content {
-            color: #fff;
-            margin: auto 2rem 2rem;
-        }
+    .portfolio-item2 .caption .caption-content h2 {
+        font-size: 1.2rem;
+        text-transform: uppercase;
+    }
 
-            .portfolio-item2 .caption .caption-content h2 {
-                font-size: 1.2rem;
-                text-transform: uppercase;
-            }
-
-            .portfolio-item2 .caption .caption-content p {
-                font-weight: 300;
-                font-size: 0.8em;
-            }
-
-        .portfolio-item2 .caption .caption-content {
-            margin-left: 5rem;
-            margin-right: 5rem;
-            margin-top: 1rem;
-        }
+    .portfolio-item2 .caption .caption-content p {
+        font-weight: 300;
+        font-size: 0.8em;
+    }
+    .portfolio-item2 .caption .caption-content {
+        margin-left: 5rem;
+        margin-right: 5rem;
+        margin-top: 1rem;
+    }
 
 #myImg {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
+    
 }
 
     #myImg:hover {
         opacity: 0.7;
     }
-
 #myImg2 {
     border-radius: 5px;
     cursor: pointer;
@@ -106,7 +102,6 @@ h3 {
     #myImg2:hover {
         opacity: 0.7;
     }
-
 #myImg3 {
     border-radius: 5px;
     cursor: pointer;
@@ -116,7 +111,6 @@ h3 {
     #myImg3:hover {
         opacity: 0.7;
     }
-
 #myImg4 {
     border-radius: 5px;
     cursor: pointer;

@@ -21,8 +21,8 @@ namespace JTDesign
             try
             {
                 MailMessage msg = new MailMessage();
-                msg.To.Add("jordan.trent@gmail.com");
-                MailAddress address = new MailAddress("jordan.trent@gmail.com");
+                msg.To.Add("jrcomputing@gmail.com");
+                MailAddress address = new MailAddress("jrcomputing@gmail.com");
                 msg.From = address;
                 msg.Subject = "JTD Contact form submission " + form_name.Value;
                 msg.Body = "Contact Name: " + form_name.Value + "Email: " + form_email.Value + "Contact Telephone Number: " + form_phone.Value + "Form Message: " + form_message.Value;
@@ -30,7 +30,7 @@ namespace JTDesign
                 SmtpClient client = new SmtpClient("smtp.gmail.com", 587);
                 client.UseDefaultCredentials = false;
                 client.EnableSsl = true; 
-                NetworkCredential credentials = new NetworkCredential("jordan.trent@gmail.com", "password");
+                NetworkCredential credentials = new NetworkCredential("jtdesignemail@gmail.com", "password");
                 client.Credentials = credentials;
 
                 client.Send(msg);
